@@ -19,7 +19,7 @@
     background: #111;
     color: #fff;
     z-index: 2;
-    transition: .65s;
+    transition: .7s;
 }   
 
 .showcase.active{
@@ -41,6 +41,12 @@
 
 .logo{
 cursor: pointer;
+}
+
+.showcase header h2 .sideways {
+    font-size: small;
+    color: #de5d83;
+
 }
 
 .toggle {
