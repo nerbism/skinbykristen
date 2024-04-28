@@ -42,6 +42,10 @@
 .logo{
 cursor: pointer;
 }
+.showcase header a {
+    text-decoration: none;
+    color: #fff;
+}
 
 .showcase header h2 .sideways {
     font-size: small;
