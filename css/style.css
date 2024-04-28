@@ -48,3 +48,38 @@ cursor: pointer;
     filter: invert(100%);
     cursor: pointer
 }
+
+.toggle.active {
+    background: url('../media/close.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    filter: invert(100%);
+
+}
+
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+
+}
+
+.text {
+    position: relative;
+    z-index: 3;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #312828; */
+    mix-blend-mode: overlay;
+}
