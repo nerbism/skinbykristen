@@ -297,3 +297,54 @@ ____) |  __/ |   \ V /| | (_|  __/
     transform: scale(1.05);
 }
 
+
+
+.box {
+    z-index: -1;
+    color: #111;
+}
+
+.box ul li {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    opacity: 0;
+    background: radial-gradient(#de5d83, transparent, transparent);
+    bottom: 0;
+    left: 10vw;
+    animation: animate 15s linear infinite;
+
+}
+
+/* .box ul li:nth-child(2) {
+    left: 37vw;
+    animation-delay: 2s;
+}
+
+.box ul li:nth-child(3) {
+    left: 25vw;
+    animation-delay: 4s;
+}
+.box ul li:nth-child(4) {
+    left: 60vw;
+    animation-delay: 6s;
+}
+.box ul li:nth-child(2) {
+    left: 75vw;
+    animation-delay: 4s;
+} */
+
+@keyframes animate {
+    0%{
+        transform: scale(0);
+        opacity: 1;
+        bottom: 0;
+    }
+
+    100%{
+        transform: scale(10);
+        opacity: 0;
+        bottom: 100vh;
+    }
+}
