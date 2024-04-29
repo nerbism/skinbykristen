@@ -6,6 +6,12 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/*   _    _                      
+ | |  | |                     
+ | |__| | ___  _ __ ___   ___ 
+ |  __  |/ _ \| '_ ` _ \ / _ \
+ | |  | | (_) | | | | | |  __/
+ |_|  |_|\___/|_| |_| |_|\___|  */
 
 .showcase {
     position: absolute;
@@ -210,4 +216,41 @@ cursor: pointer;
     text h3 {
         font-size:1em;
     }
+}
+
+/* _____                 _           */
+/* / ____|               (_)         
+| (___   ___ _ ____   ___  ___ ___ 
+\___ \ / _ \ '__\ \ / / |/ __/ _ \
+____) |  __/ |   \ V /| | (_|  __/
+|_____/ \___|_|    \_/ |_|\___\___| */
+
+.container {
+    width: 100%;
+    height:100vh;
+    padding: 0 8%;
+}
+.container h1 {
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+.container h1::after {
+    content: '';
+    background: #de5d83;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service img {
+    width: 35px;
+    filter: invert(100%);
 }
