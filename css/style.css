@@ -250,7 +250,40 @@ ____) |  __/ |   \ V /| | (_|  __/
     transform: translateX(-50%);
 }
 
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.service {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+
+}
+
 .service img {
-    width: 35px;
-    filter: invert(100%);
+    width: 40px;
+    filter: invert(100);
+    margin-bottom: 10px;
+}
+
+.service h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.service:hover {
+    background: #de5d83;
+    color: #111;
+    transform: scale(1.05);
+}
+
+.service img:hover{
+    filter: invert();
+
 }
