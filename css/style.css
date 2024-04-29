@@ -281,17 +281,19 @@ ____) |  __/ |   \ V /| | (_|  __/
 }
 
 .service h2 {
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 8px;
+    color: #de5d83;
+
+}
+
+.pinktitle {
+    /* color: #de5d83; */
 }
 
 .service:hover {
-    background: #de5d83;
+    background: #FF7FA5;
     color: #111;
     transform: scale(1.05);
 }
 
-.service img:hover{
-    filter: invert();
-
-}
