@@ -271,6 +271,7 @@ ____) |  __/ |   \ V /| | (_|  __/
     font-size: 14px;
     cursor: pointer;
     background: transparent;
+    transition: transform 1s, background 1s;
 
 }
 
