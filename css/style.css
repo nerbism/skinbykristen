@@ -208,7 +208,7 @@ cursor: pointer;
     
 }
 
-@media(max-width: 798px) {
+@media(max-width: 768px) {
     .showcase, .showcase header {
         padding: 40px
     }
