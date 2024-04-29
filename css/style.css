@@ -5,6 +5,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
+}
+
+body {
 }
 /*   _    _                      
  | |  | |                     
@@ -22,7 +26,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #111;
+    background: #fff;
     color: #fff;
     z-index: 2;
     transition: .7s;
@@ -225,6 +229,10 @@ cursor: pointer;
 ____) |  __/ |   \ V /| | (_|  __/
 |_____/ \___|_|    \_/ |_|\___\___| */
 
+#services {
+    color:#111;
+}
+
 .container {
     width: 100%;
     height:100vh;
@@ -268,7 +276,6 @@ ____) |  __/ |   \ V /| | (_|  __/
 
 .service img {
     width: 40px;
-    filter: invert(100);
     margin-bottom: 10px;
 }
 
