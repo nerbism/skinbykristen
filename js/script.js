@@ -12,7 +12,7 @@ menuToggle.addEventListener('click', () => {
 
 document.addEventListener("DOMContentLoaded", function () {
     const bubblesContainer = document.querySelector(".box ul");
-    const numBubbles = 6; // Number of bubbles to generate
+    const numBubbles = 9; // Number of bubbles to generate
 
     // Generate random left position and animation delay for each bubble
     for (let i = 0; i < numBubbles; i++) {
