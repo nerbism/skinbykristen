@@ -341,9 +341,19 @@ body .conactpage {
     transition: 0.3s linear;
 }
 
+.concard a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .concard:hover p {
     max-height: 40px;
     opacity: 1;
+}
+
+.concard p:hover {
+   
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 798px) {
