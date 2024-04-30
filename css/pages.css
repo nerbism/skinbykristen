@@ -264,7 +264,7 @@ article p:hover    {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .chain {
         flex-direction: column;
         align-items: center;
