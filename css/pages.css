@@ -1,5 +1,4 @@
 
-
 .showcase header a {
     text-decoration: none;
     color: #111;
@@ -65,6 +64,8 @@
     padding: 0px 80px;
 }
 
+
+
 .image-section {
     width: 90%;
     height: auto;
@@ -114,6 +115,11 @@ article p:hover    {
 }
 
 
+ .social {
+    filter: invert(90%);
+    margin-top: 50px;
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -150,6 +156,14 @@ article p:hover    {
     article p {
         font-size: 15px;
 
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social li {
+        margin: 0 10px;
     }
 
 
@@ -266,4 +280,59 @@ article p:hover    {
         width: calc(50% - 30px);
         margin: 10px;
     }
+}
+
+
+body .conactpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact-info {
+    color: #111;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.concard {
+    background: #de5d83;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-icon {
+    font-size: 25px;
+    color: #de5d83;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.concard:hover .card-icon {
+    background: none;
+    color: #111;
+    transform: scale(1.3);
+}
+
+.concard p {
+    margin-top: 20px;
+    
 }

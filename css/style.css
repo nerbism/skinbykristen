@@ -187,6 +187,8 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     transition: 0.5s;
 }
 
+
+
 .social li a:hover {
     transform: scale(0.6) translateY(-15px);
 }
@@ -279,7 +281,8 @@ ____) |  __/ |   \ V /| | (_|  __/
     text-align: center;
     padding: 25px 10px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 400;
     cursor: pointer;
     background: transparent;
     transition: transform 1s, background 1s;
@@ -324,24 +327,6 @@ ____) |  __/ |   \ V /| | (_|  __/
     animation: animate 15s linear infinite;
 
 }
-
-/* .box ul li:nth-child(2) {
-    left: 37vw;
-    animation-delay: 2s;
-}
-
-.box ul li:nth-child(3) {
-    left: 25vw;
-    animation-delay: 4s;
-}
-.box ul li:nth-child(4) {
-    left: 60vw;
-    animation-delay: 6s;
-}
-.box ul li:nth-child(2) {
-    left: 75vw;
-    animation-delay: 4s;
-} */
 
 @keyframes animate {
     0%{
