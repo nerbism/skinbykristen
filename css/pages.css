@@ -312,6 +312,7 @@ body .conactpage {
     align-items: center;
     color: #fff;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .card-icon {
@@ -326,6 +327,10 @@ body .conactpage {
     transition: 0.3s linear;
 }
 
+.concard:hover {
+    transform: scale(.98);
+}
+
 .concard:hover .card-icon {
     background: none;
     color: #111;
@@ -337,13 +342,14 @@ body .conactpage {
     font-weight: 200;
     letter-spacing: 1px;
     max-height: 0;
-    opacity: 0;
+    opacity: 1;
     transition: 0.3s linear;
 }
 
 .concard a {
     text-decoration: none;
     color: #fff;
+    padding: 20px;
 }
 
 .concard:hover p {
