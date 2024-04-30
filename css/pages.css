@@ -334,5 +334,26 @@ body .conactpage {
 
 .concard p {
     margin-top: 20px;
-    
+    font-weight: 200;
+    letter-spacing: 1px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.concard:hover p {
+    max-height: 40px;
+    opacity: 1;
+}
+
+@media screen and (max-width: 798px) {
+    .contact-info {
+        flex-direction: column;
+        margin-top: 7em;
+    }
+    .concard {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
 }
